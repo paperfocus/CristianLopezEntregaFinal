@@ -1,0 +1,47 @@
+.CartImg{
+    width: 20px;
+    height: 20px;
+    
+}
+.Separator {
+    border-bottom: 1px dotted #ccc; /* 1px de ancho, punteado, color gris */
+    margin: 10px 0; /* Agrega margen para separar visualmente */
+  }
+.table{
+    margin: 4em !important;
+    width: 80% !important;
+}
+.btnIrPagar{
+    font-size: 1em;
+    margin: 0 0.5em;
+    padding: 0.5em 1em;
+    background-color: black;
+    color: white;
+    border: 2px solid black;
+}
+.payment-icon {
+    width: 100px; /* Ajusta el tamaño según tus necesidades */
+    height: auto; /* Esto mantiene la proporción original */
+    margin-right: 10px; /* Espacio entre las imágenes, ajusta según sea necesario */
+  }
+
+  .container-fluid{
+    padding: 5em 1em 15em 1em;
+  }
+  .btnRemover{
+    background-color: red;
+    color: white;
+  }
+
+  .NoProductos{
+    padding: 10em;
+    text-align: center;
+  }
+   #CarLeft{
+    background-color: rgba(150, 150, 150, 0.041);
+    padding: 0em;
+   }
+   #CarRigth{
+    background-color: rgba(0, 0, 0, 0.041);
+    padding: 2em;
+   }

@@ -1,0 +1,89 @@
+/* CartWidget.css */
+.circle {
+  width: 25px;
+  height: 25px;
+  background-color: red;
+  border-radius: 50%;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: bold;
+}
+/* NavBar.css */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #333 !important;
+  padding: 1rem;
+  position: sticky;
+  top: 0;
+  position: sticky;
+  top: 0;
+}
+
+.logo img {
+  max-height: 50px; 
+}
+
+.nav-list {
+  list-style-type: none;
+  display: flex;
+  margin: 0;
+  padding: 0;
+}
+
+.nav-list li {
+  margin-right: 20px;
+}
+.nav-list a {
+  color: white;
+  text-decoration: none; 
+}
+
+.nav-list a:hover {
+  text-decoration: underline; 
+  color: rgb(88, 88, 88);
+  text-decoration: none;
+}
+.cart-section {
+  display: flex;
+  align-items: center;
+}
+.carrito{
+  color: white;
+}
+
+.card{
+  width: 18rem
+}
+
+.item-list-container {
+background-color: #f2f2f2;
+padding: 20px;
+border-radius: 8px;
+margin: 20px;
+}
+
+.item-list-container h2 {
+color: #333;
+}
+
+#btn-nav{
+
+  background-color: #333;
+  border: 1px solid #333;
+  color: white;
+  font-size: 18px;
+  padding: 1em;
+}
+
+#btn-nav:hover{
+
+  background-color: #252525;
+  border: 1px solid #333;
+  color: white;
+  font-size: 18px;
+  padding: 1em;
+}

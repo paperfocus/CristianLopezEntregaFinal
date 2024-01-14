@@ -1,0 +1,87 @@
+/* ItemDetail.css */
+
+.ItemDetailContainer {
+    display: flex;
+    justify-content: space-between;
+    width: 100%; /* Ancho completo */
+    margin: 0 auto; /* Centra el contenedor */
+    padding: 20px; /* Añade espaciado alrededor del contenedor */
+  }
+  
+  .LeftSection {
+    flex: 1; /* Ocupa el 50% del ancho */
+    margin-right: 20px; /* Añade espacio entre las secciones */
+    width: 50%; /* 50% del ancho total */
+  }
+  
+  .RightSection {
+    flex: 1; /* Ocupa el 50% del ancho */
+    width: 50%; /* 50% del ancho total */
+  }
+  
+.id{
+    font-weight: bold;
+}
+  
+.precio{
+    color: rgb(97, 13, 13);
+    font-weight: bold;
+}
+.LeftSection {
+    flex: 1 1;
+    margin-right: 20px;
+    border: 1px dotted black;
+    padding: 1em;
+}
+.Separator {
+    border-bottom: 1px dotted #ccc; /* 1px de ancho, punteado, color gris */
+    margin: 10px 0; /* Agrega margen para separar visualmente */
+  }
+  .IconSectionsHorizontal {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+  }
+  
+  .IconSectionsHorizontal > div {
+    text-align: left;
+    flex: 1;
+    padding: .5em
+  }
+  .icono{
+    color:rgb(0, 0, 78) !important;
+  }
+
+  .TwoColumnsSection {
+    display: flex;
+    flex-direction: column;  /* Cambia la dirección del eje principal a columna */
+    align-items: left;  /* Centra los elementos horizontalmente */
+    margin-top: 20px;  /* Puedes ajustar este valor según tus necesidades */
+  }
+  
+  .TwoColumnsSection > .Column {
+    text-align: left;
+    margin-bottom: 20px;  /* Agrega un margen inferior entre las columnas */
+  }
+  
+  .TwoColumnsSection > .Column img {
+    width: 100%;  /* Ajusta el ancho de la imagen según tus necesidades */
+    max-width: 200px;  /* Establece un ancho máximo para la imagen */
+  }
+  .Column img {
+    width: 80%;  /* Ajusta el ancho de las imágenes según tus necesidades */
+    max-width: 100px;  /* Establece un ancho máximo para las imágenes */
+    margin-bottom: 10px;  /* Agrega un margen inferior entre las imágenes */
+  }
+  .TerminarCompraButton{
+    font-size: 1em;
+    margin: 0 0.5em;
+    padding: 0.5em 1em;
+    color: black !important;
+  }
+  .TerminarCompraButton2{
+    font-size: 1em;
+    margin: 0 0.5em;
+    padding: 0.5em 1em;
+    color: black !important;
+  }

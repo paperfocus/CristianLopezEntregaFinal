@@ -1,0 +1,7 @@
+p.greeting-text {
+    font-size: 42px;
+    text-align: center;
+    color: rgb(89, 7, 156);
+    padding-top: 1em;
+    font-weight: bold;
+  }

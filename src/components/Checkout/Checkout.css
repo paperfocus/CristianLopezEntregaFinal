@@ -1,0 +1,99 @@
+.checkout-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin: 20px;
+  }
+  
+  .billing-details,
+  .order-summary {
+    flex: 1;
+    padding: 20px;
+    border: 1px solid #ccc;
+    margin-bottom: 20px;
+    box-sizing: border-box;
+  }
+  
+  .billing-details h2,
+  .order-summary h2 {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+  }
+  
+  .billing-details form label,
+  .billing-details form textarea {
+    display: block;
+    margin-bottom: 15px;
+  }
+  
+  .billing-details form input,
+  .billing-details form textarea {
+    width: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+  }
+  
+  .shipping-options label {
+    margin-right: 15px;
+    
+  }
+  
+  .order-summary img {
+    width: 100%;
+    max-width: 200px;
+    margin-top: 20px;
+  }
+  
+  .encab2Checkout{
+    text-align: center;
+  }
+
+  .billing-details form label,
+  .billing-details form textarea,
+  .shipping-options label,
+  .product-item {
+    text-align: left;
+    
+  }
+  .product-item {
+   
+    font-weight: bold;
+  }
+  
+  @media (max-width: 768px) {
+    .checkout-container {
+      flex-direction: column;
+    }
+  
+    .billing-details,
+    .order-summary {
+      width: 100%;
+    }
+  }
+  .espacio-en-blanco {
+    margin-top: 20px;
+  }
+  #TxtBold{
+    font-weight: bold;
+  }
+
+  .btnRealizarPedido {
+    font-size: 1em;
+    margin: 0 0.5em;
+    padding: 0.5em 1em;
+    background-color: black;
+    color: white;
+    border: 2px solid black;
+    width: 100%; /* Añadida esta línea para ocupar el ancho completo */
+  }
+  .billing-details{
+    background-color: rgba(150, 150, 150, 0.041);
+    padding: 2em;
+    border: 0px solid rgba(150, 150, 150, 0.041);
+   }
+
+  .order-summary{
+    background-color: rgba(0, 0, 0, 0.041);
+    padding: 2em;
+    border: 0px solid  rgba(0, 0, 0, 0.041);
+   }

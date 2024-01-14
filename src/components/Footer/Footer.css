@@ -1,0 +1,39 @@
+
+#footer{
+    width: 100%;
+    height: auto;
+    background-color: black;
+    color: white;
+    padding: 20px;
+    margin-top: 2em;
+}
+.row {
+    margin-right: 0; /* Asegura que no haya margen a la derecha */
+    margin-left: 0; /* Asegura que no haya margen a la izquierda */
+  }
+  
+  .col {
+    padding: 0; /* Asegura que no haya relleno en las columnas */
+  }
+ #LogoWebPay{
+    width: 300px; /* Ajusta el ancho según tus necesidades */
+  height: auto;
+ }
+ #LogoImgFooter{
+    width: 200px; /* Ajusta el ancho según tus necesidades */
+  height: auto;
+ }
+ .textoEmpresa{
+    font-size: 14px;
+ }
+ a {
+    text-decoration: none; /* Quitar el subrayado */
+    color: white; /* Cambiar el color del texto a blanco */
+  }
+
+ .iconoFooter{
+  text-decoration: none; /* Quitar el subrayado */
+  color: white !important; /* Cambiar el color del texto a blanco */
+  text-align: center;
+ } 
+@import "~@fortawesome/fontawesome-free/css/all.min.css"

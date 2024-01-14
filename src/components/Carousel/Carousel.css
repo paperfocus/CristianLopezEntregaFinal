@@ -1,0 +1,13 @@
+.carousel-control-prev,
+.carousel-control-next {
+  background-color: rgba(255, 255, 255, 0);
+  z-index: 1; /* Ajusta el valor según sea necesario */
+  color: black;
+}
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+  background-color: rgb(32, 1, 1); /* Color de fondo del ícono */
+  color: black; /* Color del ícono */
+  z-index: 2; /* Ajusta el valor según sea necesario, debe ser mayor que el z-index de los botones */
+}
